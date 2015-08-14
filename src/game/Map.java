@@ -187,6 +187,11 @@ public class Map {
                 //at this point movement from marked cell to final cell is correct.
                 // move to destination.
                 map[cellX][cellY].pieceOnCell = map[markedX][markedY].pieceOnCell;
+                map[markedX][markedY].pieceOnCell = new Piece(VACANT, "null", "null");
+                //clear mark.
+                map[markedX][markedY].cellBackground.setImageColor(1,1,1);
+                markedX = -1;
+                markedY = -1;
             }
         }
         else
