@@ -2,8 +2,14 @@
   <library name="lwjgl">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lwjgl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ibxm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lwjgl_util.jar!/" />
+      <root url="jar://$PROJECT_DIR$/slick.jar!/" />
     </CLASSES>
     <JAVADOC />
+    <NATIVE>
+      <root url="jar://$PROJECT_DIR$/natives-windows.jar!/" />
+    </NATIVE>
     <SOURCES />
   </library>
 </component>
